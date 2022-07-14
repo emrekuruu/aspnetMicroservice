@@ -1,5 +1,9 @@
 ﻿using Catalog.API.Entities;
 using MongoDB.Driver;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Catalog.API.Data
 {
@@ -7,14 +11,14 @@ namespace Catalog.API.Data
     {
         public static void SeedData(IMongoCollection<Product> productCollection)
         {
-            bool exist = productCollection.Find(p => true).Any();
-            if (!exist)
+            bool existProduct = productCollection.Find(p => true).Any();
+            if (!existProduct)
             {
                 productCollection.InsertManyAsync(GetPreconfiguredProducts());
             }
         }
 
-        public static IEnumerable<Product> GetPreconfiguredProducts()
+        private static IEnumerable<Product> GetPreconfiguredProducts()
         {
             return new List<Product>()
             {

@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{BAE3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{7580EE2D-B82C-4A2E-B84C-1E1941EAE7C4}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{67EB2DF7-8965-4947-81DE-A09712B39A7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{AAFD1BA4-9AAC-4825-BDB8-04ED621E96F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{66E7BF4B-3302-4068-879E-19FE6CA0B61F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,14 @@ Global
 		{7580EE2D-B82C-4A2E-B84C-1E1941EAE7C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7580EE2D-B82C-4A2E-B84C-1E1941EAE7C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7580EE2D-B82C-4A2E-B84C-1E1941EAE7C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EB2DF7-8965-4947-81DE-A09712B39A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EB2DF7-8965-4947-81DE-A09712B39A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EB2DF7-8965-4947-81DE-A09712B39A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EB2DF7-8965-4947-81DE-A09712B39A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66E7BF4B-3302-4068-879E-19FE6CA0B61F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E7BF4B-3302-4068-879E-19FE6CA0B61F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E7BF4B-3302-4068-879E-19FE6CA0B61F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E7BF4B-3302-4068-879E-19FE6CA0B61F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +40,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BAE3EB26-B0B8-40D3-B845-E17F1D0EB2CC} = {8B037A9E-1946-4F55-B00A-26756E3619F4}
 		{7580EE2D-B82C-4A2E-B84C-1E1941EAE7C4} = {BAE3EB26-B0B8-40D3-B845-E17F1D0EB2CC}
+		{AAFD1BA4-9AAC-4825-BDB8-04ED621E96F3} = {8B037A9E-1946-4F55-B00A-26756E3619F4}
+		{66E7BF4B-3302-4068-879E-19FE6CA0B61F} = {AAFD1BA4-9AAC-4825-BDB8-04ED621E96F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {850D411D-884E-43D0-9591-7F17841A9055}
